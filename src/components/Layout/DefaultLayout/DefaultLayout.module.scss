@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+.wrapper {
+    display: flex;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--default-layout-horizontal-spacer) 0;
+    padding-top: 10px;
+    height: 100%;
+    overflow: scroll;
+}
+.content {
+    flex: 1;
+}

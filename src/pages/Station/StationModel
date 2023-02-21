@@ -1,0 +1,53 @@
+/**
+ * params
+ * name
+ * address
+ * img
+ * latitude
+ * longtitude
+ * status
+ */
+const StationModelCreate = function (
+    name,
+    address,
+    img,
+    latitude,
+    longtitude,
+    status,
+) {
+    const name = params.name;
+    const address = params.address;
+    const img = params.img;
+    const latitude = params.latitude;
+    const longtitude = params.longtitude;
+    const status = params.status;
+    return { name, address, img, latitude, longtitude, status };
+};
+/**
+ * params
+ * id
+ * name
+ * address
+ * img
+ * latitude
+ * longtitude
+ * status
+ */
+const StationModelUpdate = function (
+    id,
+    name,
+    address,
+    img,
+    latitude,
+    longtitude,
+    status,
+) {
+    const id = params.id;
+    const name = params.name;
+    const address = params.address;
+    const img = params.img;
+    const latitude = params.latitude;
+    const longtitude = params.longtitude;
+    const status = params.status;
+    return { id, name, address, img, latitude, longtitude, status };
+};

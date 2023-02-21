@@ -1,0 +1,66 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400;1,500&display=swap');
+
+:root {
+    --primary: #fe2c55;
+    --black: #000;
+    --white: #fff;
+    --green: rgb(36, 216, 0);
+    --orange: rgb(255, 123, 0);
+    --text-color: #333;
+    //DefaultLayout
+    --default-layout-header-hight: 60px;
+    --default-layout-width: 1150px;
+    --default-layout-horizontal-spacer: 24px;
+}
+#root {
+    height: 100%;
+}
+.App {
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    color: var(--text-color);
+    height: 100%;
+}
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.form-control,
+.form-select {
+    font-size: inherit;
+}
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-create {
+    padding: 10px 20px;
+    font-size: inherit;
+}
+.avatar-img {
+    width: 50px !important;
+}
